@@ -1,0 +1,13 @@
+.section {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: tomato;
+}
+.section_block-left {
+  background: #1e2939;
+  width: 370px;
+}
