@@ -5,40 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rezyume</title>
+    <link rel="stylesheet" href="./css/variable.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/rezyume.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/rezyume.css">
+
+
 
 </head>
 <body>
     
     <section class="section">
         <div class="section_block-left">
-            <img src="./images/photo.png" alt="" width="370">
-            <p>Contacts</p>
-            <ul>
-                <li >+380683985358</li>
-                <li>mrit.works07@gmail.com</li>
+            <img src="./images/photo.png" alt="my photo" >
+            <p class="section_block_left-title">Contacts</p>
+            <ul class="section_wrap-contacts">
+                <li >
+                    <a class="section_contacts-link" href="tel:+380683985358">
+                      <svg width="10" height="16" class="section-svg">
+                        <use href="./images/sprite.svg#icon-phone"></use>
+                      </svg>
+                       <span class="section_phone-letter">+38 068 398 53 58</span> </a>
+                  </li>
+        <li class="section_contact-mail">
+            <a class="section_contacts-link" href="mailto:mrit.works07@gmail.com">
+              <svg width="16" height="12" class="section-svg">
+                <use href="./images/sprite.svg#icon-letter"></use>
+              </svg>
+              <span class="section_phone-letter">mrit.works07@gmail.com</span> </a>
+          </li>
             </ul>
-            <p>Tech Skills</p>
-            <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>scss</li>
-                <li>git</li>
-                <li>WabPack</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
+            <p class="section_block_left-title">Tech Skills</p>
+            <ul class="section_wrap-skills">
+                <li class="section_skills-item">html</li>
+                <li class="section_skills-item">css</li>
+                <li class="section_skills-item">scss</li>
+                <li class="section_skills-item">git</li>
+                <li class="section_skills-item">WabPack</li>
+                <li class="section_skills-item">JavaScript</li>
+                <li class="section_skills-item">React.js</li>
+                <li class="section_skills-item">Node.js</li>
             </ul>
-            <p>Tech Skills</p>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>TeamWork</li>
+            <p class="section_block_left-title">Soft Skills</p>
+            <ul class="section_wrap-skills" >
+                <li class="section_skills-item">Scrum</li>
+                <li class="section_skills-item">Agile</li>
+                <li class="section_skills-item">GTD</li>
+                <li class="section_skills-item">TeamWork</li>
             </ul>
         </div>
         <div></div>

@@ -1,8 +1,4 @@
 .section {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   width: 1200px;
   margin: 0 auto;
   background-color: tomato;
@@ -10,4 +6,42 @@
 .section_block-left {
   background: #1e2939;
   width: 370px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.section_block_left-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--primary-color);
+  margin-top: 50px;
+}
+.section_wrap-contacts {
+  margin-top: 10px;
+}
+.section_contact-mail {
+  margin-top: 5px;
+}
+
+.section-svg {
+  fill: var(--primary-color);
+}
+.section_phone-letter {
+  color: gray;
+}
+.section_phone-letter:hover,
+.section_phone-letter:focus {
+  color: var(--primary-color);
+}
+.section_wrap-skills {
+  list-style: disc;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.section_skills-item {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(189, 185, 185);
 }
