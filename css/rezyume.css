@@ -8,8 +8,7 @@
 .section_block-left {
   background: #1e2939;
   width: 370px;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 20px;
 }
 .section_block_left-title {
   font-weight: 700;
@@ -63,8 +62,7 @@
 }
 
 .section_block-right {
-  padding-top: 140px;
-  padding-left: 80px;
+  padding: 100px 80px;
 }
 .section_right-speciality {
   font-weight: 700;
