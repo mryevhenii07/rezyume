@@ -98,7 +98,11 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #595959;
+  color: #2b2929;
+}
+.section_link-project:hover,
+.section_link-project:focus {
+  color: #fb6d3a;
 }
 .section_thirt-title {
   font-weight: 700;
@@ -130,4 +134,10 @@
 }
 .section_right-list {
   margin-top: 10px;
+}
+.section_righy-items {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #fb6d3a;
 }
