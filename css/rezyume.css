@@ -2,7 +2,8 @@
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  background-color: tomato;
+
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .section_block-left {
   background: #1e2939;
@@ -18,6 +19,7 @@
   margin-top: 50px;
 }
 .section_wrap-contacts {
+  list-style: none;
   margin-top: 10px;
 }
 .section_contact-mail {
@@ -30,6 +32,12 @@
 .section_phone-letter {
   color: gray;
 }
+.section_contacts-country {
+  margin-top: 15px;
+  color: gray;
+  text-align: center;
+}
+
 .section_phone-letter:hover,
 .section_phone-letter:focus {
   color: var(--primary-color);
@@ -44,10 +52,84 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: rgb(189, 185, 185);
+  color: #fb6d3a;
+}
+.section_skills-item:last-child {
+  margin-bottom: 0;
+}
+
+.section_skills-text {
+  color: rgb(216, 213, 213);
 }
 
 .section_block-right {
   padding-top: 140px;
   padding-left: 80px;
+}
+.section_right-speciality {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.section_right-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+.section_about {
+  width: 400px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #595959;
+}
+.section_sub-title {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  color: #000000;
+}
+.section_link-project {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #595959;
+}
+.section_thirt-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.17;
+  margin-top: 12px;
+}
+.section_thirt_title-orange {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fb6d3a;
+}
+.section_paragraph-date {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a8a8a8;
+}
+.section_paragraph_date-country {
+  display: inline-block;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-left: 1px solid black;
+}
+.section_right-item {
+  color: #595959;
+}
+.section_right-list {
+  margin-top: 10px;
 }
