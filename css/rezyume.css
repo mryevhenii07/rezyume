@@ -19,14 +19,14 @@
 }
 .section_wrap-contacts {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 15px;
 }
-.section_contact-mail {
-  margin-top: 5px;
+.section_contact-item {
+  margin-top: 8px;
 }
 
 .section-svg {
-  fill: var(--primary-color);
+  fill: var(--thirt-orange-color);
 }
 .section_phone-letter {
   color: gray;
