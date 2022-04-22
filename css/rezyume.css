@@ -5,6 +5,7 @@
 
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
+
 .section_block-left {
   background: #1e2939;
   width: 370px;
@@ -27,6 +28,7 @@
 
 .section-svg {
   fill: var(--thirt-orange-color);
+  display: inline;
 }
 .section_phone-letter {
   color: gray;
